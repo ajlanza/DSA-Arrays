@@ -165,6 +165,15 @@ class Array {
     return newArr;
   }
 
+  rotate(str1, str2){
+    let compareString = str1 + str1;
+    if(str1.length != str2.length) return false;
+    if(compareString.indexOf(str2)===-1) {
+      return false;
+    } 
+    return true;
+  }
+
 }
 
 Array.SIZE_RATIO = 3;

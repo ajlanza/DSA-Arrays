@@ -76,6 +76,13 @@ function main() {
   console.log(`2D Array:`);
   console.log(arr.twoDArray(twoD));
   console.log(arr.twoDArray(anotherTwoD));
+
+  //Problem 12
+  const str1 = 'amazon';
+  const str2 = 'zonama';
+  console.log(`String rotation`);
+  console.log(arr.rotate(str1, str2));
+
 }
 
 
